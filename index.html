@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPA Store</title>
+</head>
+<body>
+    <h1>Welcome to the IPA Store</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="ipaFile">Choose an IPA file to upload:</label>
+        <input type="file" id="ipaFile" name="ipaFile" accept=".ipa" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
